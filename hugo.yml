@@ -1,0 +1,28 @@
+baseURL: ""
+languageCode: en-us
+title: My Hugo portfolio Site
+theme: PaperMod
+params:
+  profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    subtitle: "Web Developer"
+    imageUrl: "img/ebro.jpg" # optional
+    imageTitle: "place holder" # optional
+    imageWidth: 260 # custom size
+    imageHeight: 260 # custom size
+    buttons:
+      - name: Webflow
+        url: "https://ebrahims-groovy-site-00668f.webflow.io/"
+      - name: Github
+        url: "https://github.com/12288987/"
+menu:
+  main:
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: Contacts
+      name: Contacts
+      url: /contacts/
+      weight: 10
